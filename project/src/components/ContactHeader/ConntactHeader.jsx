@@ -1,9 +1,9 @@
-import style from './ContactHeader.module.css'
+import styles from "./ContactHeader.module.css"
 function ConntactHeader() {
   return (
-    <div className={'container ${styles.contact_section}'}>
-      <h1>CONTACT US</h1>
-      <p>Let's connect we're here to help ,and we'd love to hear from you! whether you have a question,comment,or,just want to chat ,you can reach out us through the contact from of this pages, or by phone,email,or social media.</p>
+    <div className={`${styles.contact_section}`}>
+      <h1 className="">CONTACT US</h1>
+      <p>LETS CONNECT: WE'RE HERE TO HELP ,AND WE'D LOVE TO HEAR FROM YOU! WHETHER YOU HAVE A QUESTION,COMMENT,OR,JUST WANT TO CHAT ,YOU CAN REACH OUT US THROUGH THE CONTACT FROM OF THIS PAGES, OR BY PHONE,EMAIL,OR SOCIAL MEDIA.{" "}</p>
     </div>
   )
 }
