@@ -1,12 +1,11 @@
-import { RiMessage2Fill } from "react-icons/ri";
-
-function Button() {
+import styles from "./Button.module.css";
+const Button = ({ isOutline, icon, text }) => {
   return (
-    <div>
-      <RiMessage2Fill/>
-    </div>
-  )
-}
+    <button className={isOutline ? styles.outline_btn: styles.primary_btn}>
+      {icon}
+      {text}
+    </button>
+  );
+};
 
 export default Button ;
-¸
